@@ -1,0 +1,34 @@
+div {
+    width: 45%;
+    float: left;
+    border: 2px solid #000000;
+    padding: 25px;
+    margin: 20px;
+}
+#left {
+    background-color: azure;
+}
+#right {
+    background-color: chocolate;
+}
+#idp5 {
+    color: green;
+}
+.p1 {
+   color: red;
+}
+.p2 {
+    color: #ffffff;
+}
+.p3 {
+    color: blue;
+}
+#bottom {
+    width: 100%;
+}
+#bottom > p{
+    color: red;
+}
+#bottom article+p{
+    color: blue;
+}
