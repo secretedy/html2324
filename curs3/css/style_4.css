@@ -1,0 +1,21 @@
+body {
+    margin: 20px auto;
+    width: 100%;
+    max-width: 1600px;
+}
+div {
+    width: 25%;
+    float: left;
+    margin: 10px 25px 15px 20px;
+    padding: 25px;
+
+    border-top: 2px solid red;
+    border-bottom: 2px solid green;
+    border-left: 2px dotted blue;
+    border-right: 2px dotted orange;
+
+    border-radius: 25px;
+    background-image: url("../../curs2/images/fav/android-chrome-192x192.png");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
