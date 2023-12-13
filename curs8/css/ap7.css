@@ -1,0 +1,66 @@
+nav {
+    font-family: 'Lobster', sans-serif;
+    height: 37px;
+    background-color: #284554;
+    width: 100%;
+    margin: 20px auto;
+}
+nav > ul {
+    width: 90%;
+    margin: 0 auto;
+    padding: 0;
+    text-align: centre;
+}
+nav > ul > li {
+    text-transform: uppercase;
+    display: inline;
+    float: left;
+    padding: 7px 5px 10px 5px;
+}
+nav > ul > li:hover, nav > ul > li.active {
+    background-color: red;
+}
+nav > ul > li.active > a {
+    color: #000000;
+}
+nav > ul > li > a {
+    color: #ffffff;
+    text-decoration: none;
+    list-style: none;
+    padding: 15px 20px;
+}
+nav > ul > li > a:hover {
+    color: black;
+}
+ul.submeniu {
+    text-transform: uppercase;
+    display: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+nav > ul > li:hover > ul.submeniu {
+    display: block;
+    background-color: #284554;
+    clear: both;
+    margin-top: 10px;
+    position: absolute;
+    width: 160px;
+    z-index: 100;
+}
+ul.submeniu > li > a {
+    padding: 15px 20px;
+    text-decoration: none;
+}
+ul.submeniu > li:hover {
+    background-color: #ff0a0a;
+    color: white;
+}
+nav > ul > li:hover > ul.submeniu > li {
+    padding: 7px 5px 7px 5px;
+}
+nav > ul> li:hover > ul.submeniu > li > a {
+    padding: 7px 5px 7px 5px;
+    text-decoration: none;
+    color: #ffffff;
+}
